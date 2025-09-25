@@ -1,0 +1,123 @@
+* {
+   background-image: url("https://i.pinimg.com/originals/8f/60/b3/8f60b3080ff2427ad4254c7e2a18d234.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
+   font-family: "Varela Round", sans-serif;
+   font-weight: bold;
+   color: rgb(110, 81, 61);
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+    background: #fff9e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    background: #fff9e5;
+    padding: 0 1.5rem;
+}
+
+.nav-items{
+    border-width: 0px;
+    a:visited {
+         color: rgb(110, 81, 61);
+    }
+    a:hover {
+        color: rgb(110, 81, 61);
+        text-decoration: none;
+    }
+}
+
+.logo {
+    background: #fff9e5;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    background: #fff9e5;
+    padding: 0 1.5rem;
+    a:visited {
+         color: rgb(110, 81, 61);
+    }
+    a:hover {
+        color: rgb(110, 81, 61);
+        text-decoration: none;
+    }
+}
+
+.timmytommy {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.shop-links {
+     position: absolute;
+     top: 445px;
+     right: 412px;
+     font-size: 30px;
+     text-align: center;
+     background: #f8eebc;
+     border-color: #f8eebc;
+     a:visited {
+         color: rgb(110, 81, 61);
+     }
+     a:hover {
+         color: rgb(110, 81, 61);
+         background-color: rgb(254, 222, 64);
+         text-decoration: none;
+     }
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.card {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    background: #fff9e5;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-title {
+    background: #fff9e5;
+}
+
+.card-body {
+    background: #fff9e5;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-body h6 {
+    background: #fff9e5;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-cart {
+    color: rgb(110, 81, 61);
+    background: rgb(254, 222, 64);
+    border-color: rgb(254, 222, 64);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
