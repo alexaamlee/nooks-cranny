@@ -26,6 +26,9 @@ nav a {
 
 .nav-items{
     border-width: 0px;
+    a:link {
+         color: rgb(110, 81, 61);
+    }
     a:visited {
          color: rgb(110, 81, 61);
     }
