@@ -44,6 +44,9 @@ nav a {
     text-decoration: none;
     background: #fff9e5;
     padding: 0 1.5rem;
+    a:link {
+         color: rgb(110, 81, 61);
+    }
     a:visited {
          color: rgb(110, 81, 61);
     }
@@ -69,6 +72,9 @@ nav a {
      text-align: center;
      background: #f8eebc;
      border-color: #f8eebc;
+     a:link {
+         color: rgb(110, 81, 61);
+     }
      a:visited {
          color: rgb(110, 81, 61);
      }
